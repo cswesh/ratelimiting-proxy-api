@@ -1,3 +1,20 @@
+1. API KEY is protected by making a proxy for the main API
+2. Caching
+    -marweather.js
+3. Rate limiting for spaming this proxy API
+    -marweather2.js (+above)
+4. Slow Down the response (which reduces the number of requests)
+    -marweather3.js (+above)
+5. Check API Keys (or can check the user logged in with different IP addresses) and limit the hits
+    -marweather4.js (+above)
+
+
+
+
+
+
+
+
 # Express API Starter
 
 Includes API Server utilities:

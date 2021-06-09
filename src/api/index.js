@@ -1,5 +1,5 @@
 const express = require('express');
-
+const marsweather = require('./marsweather');
 const emojis = require('./emojis');
 
 const router = express.Router();
@@ -11,5 +11,6 @@ router.get('/', (req, res) => {
 });
 
 router.use('/emojis', emojis);
+router.use('/mars-weather', marsweather);
 
 module.exports = router;
